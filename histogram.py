@@ -23,7 +23,7 @@ x_start = xmin - x_range/25.	#bigger offset for bar plot
 x_end = xmax + x_range/25.
 
 ymin = 0
-ymax = bins[0][-1]
+ymax = max(bins[0])
 y_range = ymax - ymin
 y_start = ymin - y_range/25.
 y_end = ymax + y_range/25.
